@@ -12,7 +12,6 @@ import static org.junit.Assert.*;
  */
 public class AppTest
 {
-
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
     @Before
@@ -34,9 +33,9 @@ public class AppTest
     {
         App.main(null);
         try {
-            assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
+            assertEquals("HAaaaalooooo duniaaaaa!!!" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
-            fail("\"message\" is not \"Hello World!\"");
+            fail("\"message\" is not \"HAaaaalooooo duniaaaaa!!!\"");
         }
     }
 
@@ -44,5 +43,4 @@ public class AppTest
     public void cleanUpStreams() {
         System.setOut(null);
     }
-
 }

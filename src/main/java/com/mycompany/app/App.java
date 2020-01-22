@@ -1,21 +1,20 @@
-package com.mycompany.app;
-
+package com.andikaahmad.app;
 /**
  * Hello world!
  */
 public class App
 {
-
-    private final String message = "Hello World!";
+    private final String message = "HAaaaalooooo duniaaaaa!!!";
 
     public App() {}
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         System.out.println(new App().getMessage());
     }
 
-    private final String getMessage() {
+    private final String getMessage()
+    {
         return message;
     }
-
 }
